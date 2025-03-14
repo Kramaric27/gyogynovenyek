@@ -29,13 +29,17 @@ a:hover{
     
 }
 
-a{
-    color: black;
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-    
-}
+a {
+    background-color: rgb(255, 162, 250);
+    border-color: rgb(239, 117, 255);
+    border-radius: 30px;
+    border-style: solid;
+    color: black;   
+    margin: 5%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
 
 
 header{
@@ -114,3 +118,20 @@ h2{
     border-radius: 50Px;
 }
 
+@media screen and (max-width:610px){
+    article {
+        grid-template-columns: 1fr;
+        border-radius: 100%;
+    }
+    header {
+        font-size: 10px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 50Px;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border: 2px, dashed, black;
+    }
+ 
+}
